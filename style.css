@@ -94,6 +94,7 @@ button {
     justify-content: center;
     align-items: center;
     color: #1f2937;
+    margin-bottom: 64px;
 }
 
 .information-title {
@@ -119,4 +120,23 @@ button {
     border: solid 2px #3882f6;
     border-radius: 10px;
     min-height: 150px;
+}
+
+/* quote section */
+
+.quote {
+    margin: 64px 128px 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.originator {
+    margin-right: 128px;
+    text-align: right;
+}
+
+.quote-container {
+    padding: 64px;
+    background-color: #e5e7eb;
 }
