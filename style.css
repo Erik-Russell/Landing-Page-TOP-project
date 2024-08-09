@@ -93,22 +93,30 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #1f2937;
+}
+
+.information-title {
+    margin: 32px;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .info-card-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 24px;
 }
 
 .info-card {
     display: flex;
     flex-direction: column;
-    flex: 0;
+    flex: 0 1 150px;
+    text-align: center;
 }
 
 .info-image {
     border: solid 2px #3882f6;
     border-radius: 10px;
-    min-height: 50px;
-    min-width: 50px;
+    min-height: 150px;
 }
