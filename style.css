@@ -173,3 +173,12 @@ button {
     width: 7em;
     padding: 8px 16px;
 }
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px auto;
+}
