@@ -140,3 +140,36 @@ button {
     padding: 64px;
     background-color: #e5e7eb;
 }
+
+/* signup section */
+
+.signup-container {
+    display: flex;
+    margin: 64px;
+    padding: 32px 128px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+    justify-content: space-between;
+}
+
+.call-to-action {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.signup-info {
+    font-weight: 200;
+}
+
+#bottom-signup {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+}
+
+button {
+    width: 7em;
+    padding: 8px 16px;
+}
